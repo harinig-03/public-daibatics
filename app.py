@@ -7,7 +7,7 @@ from PIL import Image
 model = pickle.load(open("diabetes_model.pkl", "rb"))
 
 # Page config
-st.set_page_config(page_title="Diabetes Prediction App", page_icon="🩺", layout="centered")
+st.set_page_config(page_title="Diabetes Prediction website", page_icon="🩺", layout="centered")
 
 # Main title
 st.title("🩺 Diabetes Prediction App")
@@ -18,7 +18,7 @@ Fill out the form below to get your result!
 """)
 
 # Sidebar for input values
-st.sidebar.header("Enter Patient Information")
+st.title("Enter Patient Information")
 pregnancies = st.sidebar.number_input("Pregnancies", min_value=0, max_value=20, step=1)
 glucose = st.sidebar.number_input("Glucose", min_value=0, max_value=300, step=1)
 blood_pressure = st.sidebar.number_input("Blood Pressure", min_value=0, max_value=200, step=1)
