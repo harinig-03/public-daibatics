@@ -12,7 +12,7 @@ st.set_page_config(page_title="Diabetes Prediction website", page_icon="🩺", l
 # Main title
 st.title("🩺 Diabetes Prediction App")
 st.markdown("""
-This app predicts whether a person is **diabetic** or **not diabetic** based on 8 health inputs.
+This app predicts whether a person is **diabetic** or **not diabetic** .
 
 Fill out the form below to get your result!
 """)
